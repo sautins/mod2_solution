@@ -1,0 +1,168 @@
+
+
+
+
+* {
+ box-sizing: border-box;
+ font-family: Arial;
+ font-size: 16px;
+}
+
+
+
+.menu {
+
+    text-align: center;
+
+ }
+
+
+ .chickenmenu {
+
+    border-color: black;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    background-color: grey;
+    margin: 1em;
+    padding: .1em;
+    
+ 
+ }
+
+
+ .beefmenu {
+
+    border-color: black;
+    border-style: solid ;
+    margin: 1em;
+    background-color: grey;
+ }
+
+
+ .sushimenu {
+
+
+    border: solid black;
+    margin: 1em;
+    background-color: grey;
+
+ }
+
+
+ .chickentitle {
+    
+    border-color: black;
+    border-style: solid;
+ border-bottom-width: 2px;
+ border-top-width: 0px;
+ border-right-width: 0px;
+ border-left-width: 2px;
+      background-color: grey;
+
+    background-color: rosybrown;
+
+   
+
+ }
+
+
+
+ .beeftitle {
+
+
+    border: solid black;
+   
+    background-color: red;
+
+    width: fit-content;
+ }
+
+
+ .sushititle {
+
+
+    border: solid black;
+   
+    background-color: yellow;
+
+    width: fit-content;
+}
+
+.helpflex{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+   body {
+      
+      
+      background-color: green;
+    }
+   
+    .menuitems{
+
+      display: grid;
+      grid-template-columns: 1fr, 1fr;
+      gap: 10px;
+      grid-template-rows: 1fr 1fr;
+    
+  }
+
+ 
+  .chickenmenu {
+
+
+   grid-column: 1 / 1;
+  grid-row: 1;
+
+}
+
+
+.beefmenu {
+
+   grid-column: 2 / 2;
+   grid-row: 1;
+}
+
+
+.sushimenu {
+
+   grid-column: 1 / 3;
+   grid-row: 2;
+
+
+
+}
+   
+      
+  }
+   
+  
+
+
+@media only screen and (min-width: 992px) {
+
+body {
+   
+   
+   background-color: red;
+
+   .menuitems{
+
+      display: flex;
+      
+  }
+ }
+
+
+
+}
+
